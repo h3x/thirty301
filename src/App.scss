@@ -1,0 +1,35 @@
+@import 'bulma/bulma.sass';
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@1,600&display=swap');
+
+.side-menu {
+    box-shadow: 6px 6px 6px rgba(0,0,0,0.3);
+    height: 100vh;
+
+    form {
+        box-shadow: 3px 3px 3px rgba(0,0,0,0.3);
+    }
+
+}
+
+.logo-name {
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 32px;
+    color: black;
+    span {
+        color: green;
+    }
+}
+
+.symbol-item {
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 30px;
+
+    .item-symbol {
+        font-size: 9px;
+    }
+
+    .item-status {
+        
+    }
+}
