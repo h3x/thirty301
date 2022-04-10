@@ -1,5 +1,4 @@
-import { useEffect, useState } from 'react';
-import { Area,Tooltip,ResponsiveContainer,LineChart, Line,AreaChart,XAxis,YAxis,CartesianGrid } from 'recharts';
+import { Area,Tooltip,ResponsiveContainer,AreaChart,XAxis,YAxis,CartesianGrid } from 'recharts';
 
  const RenderLineChart = (props) => {
     const { data } = props;

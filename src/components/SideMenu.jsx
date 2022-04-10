@@ -1,5 +1,5 @@
-import { useEffect, useState, useContext } from 'react'
-import { Form,Container } from 'react-bulma-components'
+import { useState, useContext } from 'react'
+import { Form } from 'react-bulma-components'
 import symbolSearch from '../api/symbolSearch'
 import SymbolContext from '../store/symbol-context'
 

@@ -1,5 +1,4 @@
 import { useEffect, useState, useContext } from 'react'
-import symbolPrice from '../api/symbolPrice'
 import SymbolContext from '../store/symbol-context'
 import fundamentalData from '../api/fundamental'
 

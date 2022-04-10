@@ -5,9 +5,6 @@ import RenderLineChart from './RenderLineChart'
 import Fundamental from './Fundamental'
 
 const GraphHeader = (props) => {
-    const SymbolCtx = useContext(SymbolContext)
-
-    const { data } = props;
     return (
         <div>
             <div className="section">
