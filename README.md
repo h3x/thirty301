@@ -1,6 +1,22 @@
-# Getting Started with Create React App
+# Thiry301
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Thirty301 is a fundamental investment decision making guide.
+
+## `Current Features`
+
+- Symbol and company name search
+- Fundamental data display
+- Closing and daily high for previous 30 days
+
+## `Future Features`
+
+- Firebase connection
+- User auth
+- Watchlist
+- Buy / sell list
+    - Dates per trade
+    - Save prices at each trade
+    - Calc for profit per trade
 
 ## Available Scripts
 

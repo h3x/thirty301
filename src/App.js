@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.scss';
 import SideMenu from './components/SideMenu';
-
+import SingleSymbol from './components/SingleSymbol';
 
 function App() {
   return (
@@ -11,8 +11,8 @@ function App() {
     </div>
     
     <div className="column">
-          
-      </div>
+      <SingleSymbol />
+    </div>
       
       
     </div>

@@ -1,7 +1,7 @@
 import { createContext, useState } from "react";
 
 const SymbolContext = createContext({
-    selectedSymbol: {},
+    selectedSymbol: '',
     watchedSymbols: [],
     watchedSymbolsLength: 0,
     addSymbol: (symbol)=>{},
@@ -13,8 +13,8 @@ const SymbolContext = createContext({
 
 export function SymbolContextProvider(props) {
 
-    const [userSelectedSymbol, setUserSelectedSymbol] = useState({})
-    const [userWatchedSymbols, setUserWatchedSymbols] = useState(['TSLA'])
+    const [userSelectedSymbol, setUserSelectedSymbol] = useState('')
+    const [userWatchedSymbols, setUserWatchedSymbols] = useState([])
 
     function toggleSymbolHandler(symbol){
         console.log(symbol)
@@ -39,7 +39,9 @@ export function SymbolContextProvider(props) {
     }
 
     function isInSymbolList (symbol) {
-        return userWatchedSymbols.some((item) => item == symbol)
+        // TODO: For next part where items can be added to a watchlist
+        // return userWatchedSymbols.some((item) => item == symbol)
+        return symbol === userSelectedSymbol
 
     }
 

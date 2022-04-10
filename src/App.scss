@@ -1,9 +1,20 @@
 @import 'bulma/bulma.sass';
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@1,600&display=swap');
 
+.main-content{
+    height: 100vh;
+    overflow:scroll;
+}
+
+.side-menu .section {
+    padding-bottom: 0px;
+    padding-top: 0px;
+}
+
 .side-menu {
     box-shadow: 6px 6px 6px rgba(0,0,0,0.3);
     height: 100vh;
+    overflow:scroll;
 
     form {
         box-shadow: 3px 3px 3px rgba(0,0,0,0.3);
@@ -14,16 +25,22 @@
 .logo-name {
     font-family: 'Fira Sans', sans-serif;
     font-size: 32px;
-    color: black;
+    color: #31bfa0;
     span {
-        color: green;
+        color: darkslateblue;
+    }
+    &.variant {
+        font-size: 16px;
+        span{
+            font-size: 32px;
+        }
     }
 }
 
 .symbol-item {
     cursor: pointer;
     font-size: 16px;
-    margin-top: 30px;
+    margin-top: 10px;
 
     .item-symbol {
         font-size: 9px;
@@ -31,5 +48,26 @@
 
     .item-status {
         
+    }
+}
+
+.fundamental .section {
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+.info {
+    font-family: 'Fira Sans', sans-serif;
+    font-size: small;
+    color: #31bfa0;
+    span{
+        color: darkslateblue;
+        font-size: large ;
+    }
+    &.red {
+        color: deeppink;
+    }
+    &.green {
+        color: #31bfa0;
     }
 }

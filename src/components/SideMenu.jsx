@@ -48,7 +48,7 @@ const SideMenu = () => {
     return (
         <div className='side-menu'>
             <div className="section">
-                <h1 className='logo-name'><span>Stock</span>App</h1>
+                <h1 className='logo-name'><span>Thirty</span>301</h1>
                 <form onSubmit={handleSearch}>
                     <Form.Input
                         color="success"
